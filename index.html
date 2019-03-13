@@ -1,0 +1,676 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>PayBae - Cashless and Registration Solution for Festivals</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <style>
+    /*! normalize.css v3.0.2 | MIT License | git.io/normalize */img,legend{border:0}legend,td,th{padding:0}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,optgroup,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre,textarea{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}table{border-collapse:collapse;border-spacing:0}
+
+    .column,.columns,.container,.u-full-width{width:100%;box-sizing:border-box}h1,h2,h3{letter-spacing:-.1rem}body,h6{line-height:1.6}.container{position:relative;max-width:960px;margin:0 auto;padding:0 20px}ol,p,ul{margin-top:0}.column,.columns{float:left}@media (min-width:400px){.container{width:85%;padding:0}}html{font-size:62.5%}body{font-size:1.5em;font-weight:400;font-family:Poppins,HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;color:#222}h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:2rem;font-weight:300}h1{font-size:4rem;line-height:1.2}h2{font-size:3.6rem;line-height:1.25}h3{font-size:3rem;line-height:1.3}h4{font-size:2.4rem;line-height:1.35;letter-spacing:-.08rem}h5{font-size:1.8rem;line-height:1.5;letter-spacing:-.05rem}h6{font-size:1.5rem;letter-spacing:0}@media (min-width:550px){.container{width:80%}.column,.columns{margin-left:4%}.column:first-child,.columns:first-child{margin-left:0}.one.column,.one.columns{width:4.66666666667%}.two.columns{width:13.3333333333%}.three.columns{width:22%}.four.columns{width:30.6666666667%}.five.columns{width:39.3333333333%}.six.columns{width:48%}.seven.columns{width:56.6666666667%}.eight.columns{width:65.3333333333%}.nine.columns{width:74%}.ten.columns{width:82.6666666667%}.eleven.columns{width:91.3333333333%}.twelve.columns{width:100%;margin-left:0}.one-third.column{width:30.6666666667%}.two-thirds.column{width:65.3333333333%}.one-half.column{width:48%}.offset-by-one.column,.offset-by-one.columns{margin-left:8.66666666667%}.offset-by-two.column,.offset-by-two.columns{margin-left:17.3333333333%}.offset-by-three.column,.offset-by-three.columns{margin-left:26%}.offset-by-four.column,.offset-by-four.columns{margin-left:34.6666666667%}.offset-by-five.column,.offset-by-five.columns{margin-left:43.3333333333%}.offset-by-six.column,.offset-by-six.columns{margin-left:52%}.offset-by-seven.column,.offset-by-seven.columns{margin-left:60.6666666667%}.offset-by-eight.column,.offset-by-eight.columns{margin-left:69.3333333333%}.offset-by-nine.column,.offset-by-nine.columns{margin-left:78%}.offset-by-ten.column,.offset-by-ten.columns{margin-left:86.6666666667%}.offset-by-eleven.column,.offset-by-eleven.columns{margin-left:95.3333333333%}.offset-by-one-third.column,.offset-by-one-third.columns{margin-left:34.6666666667%}.offset-by-two-thirds.column,.offset-by-two-thirds.columns{margin-left:69.3333333333%}.offset-by-one-half.column,.offset-by-one-half.columns{margin-left:52%}h1{font-size:5rem}h2{font-size:4.2rem}h3{font-size:3.6rem}h4{font-size:3rem}h5{font-size:2.4rem}h6{font-size:1.5rem}}a{color:#1EAEDB}a:hover{color:#0FA0CE}.button,button,input[type=submit],input[type=reset],input[type=button]{display:inline-block;height:38px;padding:0 30px;color:#555;text-align:center;font-size:11px;font-weight:600;line-height:38px;letter-spacing:.1rem;text-transform:uppercase;text-decoration:none;white-space:nowrap;background-color:transparent;border-radius:4px;border:1px solid #bbb;cursor:pointer;box-sizing:border-box}.button:focus,.button:hover,button:focus,button:hover,input[type=submit]:focus,input[type=submit]:hover,input[type=reset]:focus,input[type=reset]:hover,input[type=button]:focus,input[type=button]:hover{color:#333;border-color:#888;outline:0}.button.button-primary,button.button-primary,input[type=submit].button-primary,input[type=reset].button-primary,input[type=button].button-primary{color:#FFF;background-color:#33C3F0;border-color:#33C3F0}.button.button-primary:focus,.button.button-primary:hover,button.button-primary:focus,button.button-primary:hover,input[type=submit].button-primary:focus,input[type=submit].button-primary:hover,input[type=reset].button-primary:focus,input[type=reset].button-primary:hover,input[type=button].button-primary:focus,input[type=button].button-primary:hover{color:#FFF;background-color:#1EAEDB;border-color:#1EAEDB}input[type=tel],input[type=url],input[type=password],input[type=email],input[type=number],input[type=search],input[type=text],select,textarea{height:38px;padding:6px 10px;background-color:#fff;border:1px solid #D1D1D1;border-radius:4px;box-shadow:none;box-sizing:border-box}input[type=tel],input[type=url],input[type=password],input[type=email],input[type=number],input[type=search],input[type=text],textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none}textarea{min-height:65px;padding-top:6px;padding-bottom:6px}input[type=tel]:focus,input[type=url]:focus,input[type=password]:focus,input[type=email]:focus,input[type=number]:focus,input[type=search]:focus,input[type=text]:focus,select:focus,textarea:focus{border:1px solid #33C3F0;outline:0}label,legend{display:block;margin-bottom:.5rem;font-weight:600}fieldset{padding:0;border-width:0}input[type=checkbox],input[type=radio]{display:inline}label>.label-body{display:inline-block;margin-left:.5rem;font-weight:400}ul{list-style:circle inside}ol{list-style:decimal inside}ol,ul{padding-left:0}ol ol,ol ul,ul ol,ul ul{margin:1.5rem 0 1.5rem 3rem;font-size:90%}.button,button,li{margin-bottom:1rem}code{padding:.2rem .5rem;margin:0 .2rem;font-size:90%;white-space:nowrap;background:#F1F1F1;border:1px solid #E1E1E1;border-radius:4px}pre>code{display:block;padding:1rem 1.5rem;white-space:pre}td,th{padding:12px 15px;text-align:left;border-bottom:1px solid #E1E1E1}td:first-child,th:first-child{padding-left:0}td:last-child,th:last-child{padding-right:0}fieldset,input,select,textarea{margin-bottom:1.5rem}blockquote,dl,figure,form,ol,p,pre,table,ul{margin-bottom:2.5rem}.u-max-full-width{max-width:100%;box-sizing:border-box}.u-pull-right{float:right}.u-pull-left{float:left}hr{margin-top:3rem;margin-bottom:3.5rem;border-width:0;border-top:1px solid #E1E1E1}.container:after,.row:after,.u-cf{content:"";display:table;clear:both}
+
+    .header #cta,h1{letter-spacing:-1px}#logo,.footer .copyright,.header{text-align:center}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}.header{width:100%;background:url(/images/site/hero_gradient.svg) 50% 100% no-repeat;background-size:auto 165%;min-height:440px;color:#fff;padding:20px 20px 60px}.header h4{font-weight:400}.header #cta{font-size:23px;height:60px;line-height:60px;margin:40px 0 0}#logo{max-width:150px;display:block;margin:0 auto 50px}h1,h2,h3,h4,h5,h6{font-weight:700}h1{font-size:65px}h4{font-size:30px}.button.button-primary{background:#F9D359;color:#111;font-weight:700;text-transform:uppercase;border:none}.body{padding:50px 30px}.body #pitches{font-weight:500}.body #pitches p{padding:0 10px}.body #pitches .hero{position:relative;min-height:200px}.body #pitches .hero h3{width:100%;height:95%;position:absolute;display:flex;align-items:center;justify-content:center;top:0;left:0;color:#fff;text-align:center;font-size:22px;font-weight:700}.footer{width:100%;min-height:300px;padding:50px 20px;background:#900bad;background:-moz-linear-gradient(left,rgba(144,11,173,1) 0,rgba(142,12,174,1) 51%,rgba(103,23,202,1) 100%);background:-webkit-linear-gradient(left,rgba(144,11,173,1) 0,rgba(142,12,174,1) 51%,rgba(103,23,202,1) 100%);background:linear-gradient(to right,rgba(144,11,173,1) 0,rgba(142,12,174,1) 51%,rgba(103,23,202,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#900bad', endColorstr='#6717ca', GradientType=1 );color:#fff}.footer ul{margin:0 0 0 1em}.footer li{list-style:none;margin:0;padding:3px 0;font-weight:600}.footer li a{color:#fff;padding:0;text-decoration:none}.footer .copyright{font-size:11px}.lightbox{display:none}.lightbox p{margin:0 0 5px;padding:0}.lightbox li,.lightbox ol,.lightbox p,.lightbox ul{font-size:14px;line-height:1.5em}.lightbox h5{margin:0 0 10px;padding:0}@media  only screen and (max-width:768px){.body #pitches .columns{display:block;float:none;width:100%;margin:0 0 20px;padding:0;clear:both}.body #pitches .columns:after{content:"";display:table;clear:both;float:none}.body #pitches .columns .hero{float:left;width:40%;min-height:150px;height:150px}.body #pitches .columns p{padding:10px 15px 10px 30px;width:60%;float:left}}@media  only screen and (max-width:650px){h1{font-size:45px}h4{font-size:20px}.header #cta{display:block;white-space:initial;line-height:1.3em;height:auto;padding:15px 5px;font-size:18px}.body #pitches .columns .hero,.body #pitches .columns p{float:none;width:100%;padding:0;margin:0}.body #pitches .columns .hero{height:auto;margin:0 0 20px}.footer{padding:25px 20px}.footer ul{margin:0;padding:0}}
+
+    html.with-featherlight{overflow:hidden}.featherlight{display:none;position:fixed;top:0;right:0;bottom:0;left:0;z-index:2147483647;text-align:center;white-space:nowrap;cursor:pointer;background:#333;background:rgba(0,0,0,0)}.featherlight:last-of-type{background:rgba(0,0,0,.8)}.featherlight:before{content:'';display:inline-block;height:100%;vertical-align:middle}.featherlight .featherlight-content{position:relative;text-align:left;vertical-align:middle;display:inline-block;overflow:auto;padding:25px 25px 0;border-bottom:25px solid transparent;margin-left:5%;margin-right:5%;max-height:95%;background:#fff;cursor:auto;white-space:normal}.featherlight .featherlight-inner{display:block}.featherlight link.featherlight-inner,.featherlight script.featherlight-inner,.featherlight style.featherlight-inner{display:none}.featherlight .featherlight-close-icon{position:absolute;z-index:9999;top:0;right:0;line-height:25px;width:25px;cursor:pointer;text-align:center;font-family:Arial,sans-serif;background:#fff;background:rgba(255,255,255,.3);color:#000;border:0;padding:0}.featherlight .featherlight-close-icon::-moz-focus-inner{border:0;padding:0}.featherlight .featherlight-image{width:100%}.featherlight-iframe .featherlight-content{border-bottom:0;padding:0;-webkit-overflow-scrolling:touch}.featherlight iframe{border:0}.featherlight *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}@media  only screen and (max-width:1024px){.featherlight .featherlight-content{margin-left:0;margin-right:0;max-height:98%;padding:10px 10px 0;border-bottom:10px solid transparent}}@media  print{html.with-featherlight>*>:not(.featherlight){display:none}}
+  </style>
+
+  <script src="//code.jquery.com/jquery-latest.js"></script>
+  <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+  <div class="header">
+    <img src="images/site/paybae_white.svg" id="logo" alt="Paybae"/>
+    <h1>Event management solutions</h1>
+    <h4>Cashless payments, ticketing systems and event analytics</h4>
+    <a href="assets/Brochure-Organiser-PayBae-v2.11.pdf" target="_blank" class="button button-primary" id="cta" style="transition: all 0.2s ease;">Download our brochure</a>
+  </div>
+  <div class="body">
+    <div class="container row" id="pitches">
+      <div class="columns four">
+        <div class="hero">
+          <img src="images/site/paybae_1_cashless.svg" alt="Cashless payments"/>
+        </div>
+        <p>Cashless transaction model reduces transaction times from ~90 seconds for traditional payments to ~15 seconds. This reduction in transaction time will translate directly into an increase for the vendors bottom line.</p>
+      </div>
+      <div class="columns four">
+        <div class="hero">
+          <img src="images/site/paybae_2_ticketing.svg" alt="Ticketing"/>
+        </div>
+        <p>PayBae system is flexible enough to be used as a ticketing system. Let your visitor pre-purchase their event ticket online and we'll validate them on the day.</p>
+      </div>
+      <div class="columns four">
+        <div class="hero">
+          <img src="images/site/paybae_3_analytics.svg" alt="Analytics"/>
+        </div>
+        <p>Get an insight on how the event is performing, backed by real-time analytics data. Use this insight to improve your event year to year.</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="container">
+      <h5>Shall we set up some demo time?</h5>
+      <form>
+        <div class="row">
+          <p>For more information and to book a live demo, email: <a href="mailto:info@paybae.com.au" style="color: #fff;">info@paybae.com.au</a></p>
+          <ul style="margin: 0;">
+            <li><a href="#" style="display: inline; margin-right: 20px;" data-featherlight="#terms">Terms of use</a> <a href="#" style="display: inline; margin-right: 20px;" data-featherlight="#privacy">Privacy policy</a></li>
+          </ul>
+        </div>
+      </form>
+    </div>
+    <div class="copyright">
+      <div class="container" style="text-align: right">
+        &copy;2018 Y3L Pty Ltd
+      </div>
+    </div>
+  </div>
+  <div id="terms" class="lightbox">
+    <h3>Our Terms and Conditions</h3>
+    <h5>1. Definitions and Interpretation</h5>
+    <p>1.1 <strong>Definitions</strong></p>
+    <p>In this Agreement, unless the context otherwise requires:</p>
+    <p>(a) &ldquo;<strong>Application</strong>&rdquo; means the mobile application used to access Y3L&rsquo;s Services.</p>
+    <p>(b) &ldquo;<strong>Claims</strong>&rdquo; means all demands, claims, proceedings, penalties, fines and liability whatsoever (whether criminal or civil, in contract, tort or otherwise).</p>
+    <p>(c) &ldquo;<strong>Confidential Information</strong>&rdquo; means any and all information provided by one party to the other in connection with this Agreement where such information is identified as confidential at the time of its disclosure or ought reasonably be considered confidential based on its content, nature or the manner of its disclosure, but excluding information:</p>
+    <p>(i) entering the public domain or disclosed to a party by a third party, unless in breach of this Terms and Conditions; and</p>
+    <p>(ii) developed independently by a party.</p>
+    <p>(d) &ldquo;<strong>Designated Events</strong>&rdquo; means event organisers who use our Services.</p>
+    <p>(e) <strong>&ldquo;Instant Prize Ticket&rdquo;</strong> means an electronic ticket issued by PayBae to you indicating that you have won a prize (which is organised by event organisers who use PayBae).</p>
+    <p>(f) &ldquo;<strong>Law</strong>&rdquo; means any legislation or regulation applicable to you in the relevant State or Territory.</p>
+    <p>(g) &ldquo;<strong>Loss</strong>&rdquo; means all losses including financial losses, damages, legal costs and other expenses of any nature whatsoever.</p>
+    <p>(h) &ldquo;<strong>Nominated Credit Card</strong>&rdquo; means a valid credit card to use our Service as a Registered User.</p>
+    <p>(i) &ldquo;<strong>PayBae</strong>&rdquo; is a proprietary tool comprised of software, hardware and source code that provides Registered Users with the means to store monetary credit in a digital wallet and track their purchases made at Designated Events with the means to receive and store data and information in a database, retrieve that information and data and analyse that data and interconnect with other software streams, smartphones or similar devices.</p>
+    <p>(j) &ldquo;<strong>PayBae Stall</strong>&rdquo; means a stall set up by an authorised person of Y3L at the Designated Event.</p>
+    <p>(k) &ldquo;<strong>Personal Information</strong>&rdquo; has the same meaning as in our Privacy Policy.</p>
+    <p>(l) &ldquo;<strong>Personal Identification Number Code / PIN Code</strong>&rdquo; means a number combination which allows you to access your User Account.&nbsp;</p>
+    <p>(m) &ldquo;<strong>QR Code</strong>&rdquo; means a machine-readable code consisting of an array of black and white squares used for storing URLS or other information for reading by a smartphone or similar device.</p>
+    <p>(n) &ldquo;<strong>Raffle Ticket</strong>&rdquo; means an electronic ticket issued by PayBae to the Registered User if there is a raffle draw event to be held at the Designated Event (which is organised by event organisers who use PayBae).</p>
+    <p>(o) &ldquo;<strong>Registered User</strong>&rdquo; means an individual, business, company or other entity registered to use our Service.</p>
+    <p>(p) &ldquo;<strong>Service</strong>&rdquo; means the services we provide to you as per clause 2 of these Terms and Conditions.</p>
+    <p>(q) &ldquo;<strong>User Account</strong>&rdquo; means the account you use to access our Services via our Website or Application.</p>
+    <p>(r) &ldquo;<strong>We</strong>&rdquo; &ldquo;<strong>us</strong>&rdquo; &ldquo;<strong>our</strong>&rdquo; and &ldquo;<strong>Y3L</strong>&rdquo; means Y3L Pty Ltd.</p>
+    <p>(s) &ldquo;<strong>Website</strong>&rdquo; means the website used to access our Services.</p>
+    <p>(t) &ldquo;<strong>You</strong>&rdquo; and &ldquo;<strong>your</strong>&rdquo; means the Registered User.</p>
+    <p>1.2 <strong>Interpretation</strong></p>
+    <p>In this Agreement, unless the context otherwise requires:</p>
+    <p>(a) words importing any gender include every gender;</p>
+    <p>(b) words importing the singular number include the plural number and vice versa;</p>
+    <p>(c) words importing persons include firms, companies and corporations and vice versa;</p>
+    <p>(d) any obligation on any party not to do or omit to do anything is to include an obligation not to allow that thing to be done or omitted to be done;</p>
+    <p>(e) headings do not affect interpretation;</p>
+    <p>(f) the word "including" (and related forms including "includes") means "including without limitation".</p>
+    <h5>2. Acceptance of terms</h5>
+    <p>2.1 Our Terms and Conditions are intended to make you aware of your legal rights and responsibilities with respect to your access to our Services.&nbsp;</p>
+    <p>2.2 By accessing or using our Services, you agree to be bound by our Terms and Conditions. If you do not agree to all the terms or meet all Eligibility Requirements, you must discontinue use of our Services immediately.</p>
+    <h5>3. Our Service</h5>
+    <p>3.1 When you become a Registered User of PayBae, we will provide you with a unique QR code which is linked with your digit wallet.</p>
+    <p>3.2 The QR code enables you to make purchases at all participating stalls at the Designated Events (provided that you have sufficient monetary credit stored in your digital wallet &ndash; please refer to clause 6.9 of the Terms and Conditions).</p>
+    <p>3.3 Event organisers who use PayBae are independent parties from Y3L and are not employees of Y3L.</p>
+    <h5>4. User Accounts &ndash; Becoming a Registered User</h5>
+    <p>4.1 In order to access and use our Services, you must become a Registered User by creating a User Account. Your User Account must be in your real name and include other Personal Information.</p>
+    <p>4.2 If you are under 18 years of age you must have your parent or guardian&rsquo;s consent to create an account.</p>
+    <p>4.3 Collection and use of any Personal Information you provide to us during the account creation process is governed by our Privacy Policy.</p>
+    <p>4.4 In creating a User Account, you represent to us that all information provided in such process is true, accurate and correct. You agree to update your information as necessary to maintain its legitimacy, truth and accuracy.</p>
+    <p>4.5 You must not impersonate, create or use an account for anyone other than yourself, or create multiple accounts except as authorised by us in writing.</p>
+    <p>4.6 You must keep your password confidential (if applicable). You are solely responsible for maintaining the security and confidentiality of your account information, and for all information made available through and in connection with your User Account.</p>
+    <p>4.7 You are responsible for all activities of your User Account. You will notify us immediately of any unauthorised use of your account in order to enable us to take necessary corrective action.</p>
+    <p>4.8 Your continued use and access of our Service is your certification and acknowledgement that you agree to be bound by our Terms and Conditions.</p>
+    <p>4.9 We reserve the right to terminate your User Account at any time if you breach these terms and conditions.</p>
+    <h5>5. Under 18&rsquo;s consent</h5>
+    <p>5.1 By creating a User Account you warrant that you are at least 18 years of age (the &ldquo;Minimum Age Requirement&rdquo;) or if you are under the age of 18, you have the consent of your parent or guardian (the &ldquo;Eligibility Requirement&rdquo;).</p>
+    <p>5.2 Y3L reserves its right to require you to prove that you meet the Eligibility Requirement through the provision of written confirmation from your parent or guardian.</p>
+    <p>5.3 If it becomes apparent you do not meet the Minimum Age Requirement or the Eligibility Requirement, we reserve the right to terminate your User Account immediately.</p>
+    <p>5.4 If your User Account is terminated under clause 5.3, any monetary credit stored in your digital wallet will be forfeited by you and non-refundable by Y3L.</p>
+    <h5>6. User Conduct</h5>
+    <p>6.1 The QR code and PIN code provided to you is paramount with the use of PayBae.</p>
+    <p>6.2 You acknowledge that unless proper precautions are taken, there are risks that your QR code or PIN code may be lost, stolen or used without your permission.</p>
+    <p>6.3 You agree that you will never let your QR code or PIN code leave your sight when making a purchase at Designated Events.</p>
+    <p>6.4 You agree that you will keep the QR code and PIN code in a safe place at all times.</p>
+    <p>6.5 You agree that you will not lend the QR code or PIN code to anybody as the QR code and PIN Code is issued for your exclusive use only.</p>
+    <p>6.6 You agree that you will never tell or show the QR code or PIN code to another person. If you suspect someone else might know your QR code or PIN code you must contact us immediately.</p>
+    <p>6.7 You agree that you will immediately report the loss, theft or unauthorised use of your QR code or PIN Code to us.</p>
+    <p>6.8 You understand that a purchase transaction can only be made if you allow an authorised person of the participating stall at the Designated Event to tap or scan your QR code and approve with your associated PIN Code.</p>
+    <p>6.9 You understand that sufficient monetary credit must be stored in your digital wallet to cover purchases made at Designated Events. Failure to keep sufficient monetary credit in your digital wallet could lead to a transaction being declined.</p>
+    <p>6.10 Your correspondence or dealings with the participating stall(s) at the Designated Event including payment transactions, warranties or representations associated with such dealings are solely between you and the participating stall(s) at the Designated Event.</p>
+    <p>6.11 You agree that all purchase transactions at the Designated Event can only be made with the use of PayBae.</p>
+    <p>6.12 If any of the participating stall(s) at the Designated Event requests you to make a purchase using a method other than through the use of PayBae, you must notify us or report them to the PayBae Stall immediately.</p>
+    <h5>7. Fees and Charges</h5>
+    <p>7.1 You may incur charges from your network service provider for updated and using our Services. Any such charges are your sole responsibility and any matters regarding these charges should be raised with your network service provider.</p>
+    <p>7.2 You agree that we may retain a 2.5% credit card surcharge each time you store monetary credit in your digital wallet by accessing our Services on our Website. You acknowledge this credit card transaction surcharge may vary depending on the relevant banking institution of your Nominated Credit Card.</p>
+    <p>7.3 You agree that we may retain a 3% credit card surcharge each time you store monetary credit in your digital wallet by accessing our Services at a PayBae Stall. You acknowledge this credit card transaction surcharge may vary depending on the relevant banking institution of your Nominated Credit Card.</p>
+    <h5>8. Payments</h5>
+    <p>8.1 When you confirm a top up or storing monetary credit in your digital wallet through our Website or Application, you agree to pay any applicable charges imposed by a third party service (e.g. relevant banking institution). We will facilitate your payment of the applicable charges (if any) on behalf of the third party service as their limited payment collection agent.</p>
+    <p>8.2 Payment will be automatically debited from your digital wallet when a purchase transaction is made in the following order of priority:</p>
+    <p>8.3 Any top up by way of cash in your digit wallet; and</p>
+    <p>8.4 Any top up by way of credit card, debit card or EFTPOS card in your digital wallet.</p>
+    <p>Example: You have $30.00 credit in your digital wallet., of which $20.00 was a top up by way of credit card and $10.00 was a top up by way of cash. Your purchase transaction at a participating stall at the Designated Event was for $12.00. The amount automatically debited from your digital wallet would be the $10.00 in cash and $2.00 from your credit top up.</p>
+    <p>8.5 By providing credit card details you warrant and agree you are duly authorised and entitled to use that credit card to make payments from time to time on behalf of the Registered User.</p>
+    <p>8.6 Charges will be inclusive of applicable taxes when required by Law.</p>
+    <p>8.7 Charges paid by you are final and non-refundable, unless otherwise determined by us.</p>
+    <p>8.8 Your payment may be processed via a third party nominated by us at our sole discretion from time to time. You are responsible to pay any additional fees or charges (if any) imposed by that third party service.</p>
+    <h5>9. Refund of balance credit in User Account</h5>
+    <p>9.1 You may apply for a refund of the balance credit in your User Account at any time by visiting a PayBae Stall.</p>
+    <p>9.2 Any refund of the balance credit in your User Account will be either by cash or refunded back to your nominated bank account to be determined by us in our absolute discretion.</p>
+    <p>9.3 Any refund made under clause 9.2 will be refunded within a commercially reasonable time. You acknowledge that the time it takes for the refund to appear in your nominated bank account will vary depending on your financial institution.</p>
+    <h5>10. Our Rights</h5>
+    <p>10.1 We reserve our right to suspend your account at any time if it is reasonably necessary to do so.</p>
+    <p>10.2 We reserve the right to access, read and disclose any information that we reasonably believe is necessary to satisfy any applicable legal or governmental process or to detect or prevent issues, including but not limited to fraud, security or technology violations.</p>
+    <p>10.3 We reserve the right to modify or terminate the Service for any reason, without notice at our absolute discretion.</p>
+    <p>10.4 Upon termination of the Service any fees, expenses or reimbursements payable by you to us in respect of any period prior to the termination date must be paid when billed and otherwise within seven (7) days after the termination date.</p>
+    <h5>11. Your Rights and Obligations</h5>
+    <p>11.1 By accessing our Services, you agree you must not use the Services for any purpose that are prohibited under these Terms and Conditions, in any companion policy or document, or by any Law in the place you access our Services. In this regard, you specifically agree that you must not (which list is not exhaustive):</p>
+    <p>(a) create a User Account other than in your own name, falsely state your identify, or do anything prohibited by clause 4.4;</p>
+    <p>(b) access or use, or attempt to access or use, a User Account other than your own User Account.</p>
+    <p>11.2 You agree and acknowledge that you are responsible for any interactions with any other party accessing or using the Service, including any other third party, whether or not they are a user of the Service.</p>
+    <p>11.3 You understand that by accessing our Services you may be exposed to content that might be offensive, harmful, inaccurate or otherwise inappropriate.</p>
+    <p>11.4 You understand that the Service may be interrupted, including but not limited to scheduled maintenance or upgrades, urgent repairs or due to a failure of telecommunication links and equipment.</p>
+    <h5>12. Raffle Ticket Draw</h5>
+    <p>12.1 We may issue a Raffle Ticket to you once you become a Registered User.</p>
+    <p>12.2 You acknowledge the Raffle Ticket draw (if any) is organised by the event organiser of the Designated Event.</p>
+    <p>12.3 Neither we, nor our directors, officers, owners, contractors, agents or employees, or related parties shall be liable for any kind of loss or liability suffered or incurred related to the Raffle Ticket draw.</p>
+    <p>12.4 You agree that the Raffle Ticket draw is solely between you and the event organiser of the Designated Event.</p>
+    <h5>13. Instant Prize</h5>
+    <p>13.1 We may issue an Instant Prize Ticket to you once you become a Registered User.</p>
+    <p>13.2 You acknowledge the winning of a prize under the Instant Prize Ticket (if any) is organised by the event organiser of the Designated Event.</p>
+    <p>13.3 Neither we, nor our directors, officers, owners, contractors, agents or employees, or related parties shall be liable for any kind of loss or liability suffered or incurred related to the winning of an Instant Prize.</p>
+    <p>13.4 You agree that the winning of a prize under the Instant Prize Ticket is solely between you and the event organiser of the Designated Event.</p>
+    <h5>14. Third party content and links</h5>
+    <p>14.1 Our Services may be accessed by our website or by Application. You may, at your sole and absolute discretion and risk, use applications that connect our Website or Application with a third party service (&ldquo;Third Party Services&rdquo;) and such Third Party Services may communicate, connect to or gather information from you.</p>
+    <p>14.2 You agree and acknowledge that your use of such Third Party Services will be governed by the Terms and Conditions and Privacy Policy applicable to the corresponding third party.</p>
+    <p>14.3 You agree and acknowledge that we are not responsible for any such external links and material, and do not endorse any advertising or other content appearing in or linked to from our Services.</p>
+    <p>14.4 You agree and acknowledge that all correspondence and any communications between you and any third party accessed or found through our Services are strictly between you and the third party.</p>
+    <p>14.5 By using Third Party Services, you agree and acknowledge to the following:</p>
+    <p>(a) if you use the Third Party Services to share information, you are consenting to information about your profile on our Service being shared;</p>
+    <p>(b) your use of a Third Party Services may cause personally identifying information to be publicly disclosed or associated with you;</p>
+    <p>(c) your use of a Third Party Services is at your own risk and you hereby indemnify and hold us harmless from and against all Claims and Loss arising out of on in any way through the use of the Application;</p>
+    <p>(d) Additionally, Apple Inc., Google Inc., Microsoft Corporation or Blackberry Limited and/or their applicable international subsidiaries and affiliates will be third-parties to these Terms and Conditions if you access the Application using Third Party Applications developed for Apple iOS, Android, Microsoft Windows, or Blackberry-powered mobile devices. These third parties are not parties to these Terms and Conditions and are not responsible for the provision or support of the Services in any manner. Your access to the Services using these devices is subject to terms set forth in the applicable third party&rsquo;s terms of service.</p>
+    <h5>15. Confidentiality</h5>
+    <p>15.1 The parties agree to keep all Confidential Information confidential and not deal with it in any way that might prejudice its confidentiality.</p>
+    <p>15.2 The parties acknowledge that information resulting from or in any way related to your use of the Service pursuant to these Terms and Conditions will be regarded as Confidential Information.</p>
+    <p>15.3 The obligations accepted under this clause 15 survive termination or expiry of this agreement.</p>
+    <h5>16. Indemnity</h5>
+    <p>16.1 You agree to indemnify and hold us harmless from and against all Claims and Loss arising out of on in any way connected with your access to and use of the Service including without limitation loss, damage, or injury to you, your employees or any third party.&nbsp;</p>
+    <h5>17. Limitation of Liability</h5>
+    <p>17.1 To the greatest extent permitted by Law, neither we, nor our directors, officers, owners, contractors, agents or employees, or their or our related parties, shall be liable to you or others for any indirect, incidental, consequential or punitive damages, or any loss resulting from the following:</p>
+    <p>(a) your access to or use of or inability to access and use the Service;</p>
+    <p>(b) any conduct of any third party on the Service, including without limitation any defamatory, offensive or illegal conduct of other users of third parties including event organisers using our Service;</p>
+    <p>(c) any content obtained from the Service;</p>
+    <p>(d) any unauthorised access, use or alteration of your transmissions; or</p>
+    <p>(e) use or changes to your Personal Information.</p>
+    <p>(f) The obligations in this clause 17 survive termination or expiry of this agreement.</p>
+    <h5>18. Copyright and Trademark</h5>
+    <p>18.1 All the material on this Website is subject to the copyright of Y3L. You must not reproduce or copy any of the material on this website or otherwise incorporate into or store in any other website.</p>
+    <p>18.2 Trademarks and logos (&ldquo;marks&rdquo;) displayed on this Website are the property of Y3L and users are prohibited from using any of our trademarks without the express consent of Y3L.</p>
+    <h5>19. Disclaimers</h5>
+    <p>19.1 The Website is provided &ldquo;as is&rdquo; and &ldquo;as available&rdquo;. We hereby disclaim any and all liability to you for any loss or liability, however caused, relating to the use of this Website or any embedded or linked website or the use of or reliance on any material on this Website or any material accessed through this Website.</p>
+    <p>19.2 You waive all rights to bring or assert any claim against us, our agents, employees, or any related party.</p>
+    <h5>20. No Warranty</h5>
+    <p>20.1 Your access to and use of the Services is at your own risk.</p>
+    <p>20.2 Your access to the Services at the Designated Events is between you and the event organiser and whilst Y3L has taken all reasonable care to select event organisers that are reasonably capable to facilitate the use of our Services with you, we give no warranty as to whether the use of our Services will be properly facilitated by the event organisers/</p>
+    <p>20.3 You agree and acknowledge the Services are provided on an &lsquo;as is&rsquo; and &lsquo;as available&rsquo; basis without warranty of any kind, and any and all warranties of accuracy are specifically disclaimed.</p>
+    <h5>21. Variation of Terms</h5>
+    <p>21.1 We reserve the right to amend or vary this Terms and Conditions from time to time without giving any reason.</p>
+    <p>21.2 You will be given notice of any change by publication of an amended Terms and Conditions (&lsquo;Amended Terms&rsquo;) on our website and take effect 21 days after the date on which they are published.</p>
+    <p>21.3 You may elect not to proceed under the Amended Terms. If you do not wish to proceed under the Amended Terms you must cancel your User Account. By continuing to use our Service after such time as the Amended Terms take effect you are deemed to irrevocably accept the Amended Terms without reservation and are bound by them.</p>
+    <h5>22. General</h5>
+    <p>22.1 <strong>Time</strong></p>
+    <p>Time is of the essence of this Terms and Conditions.</p>
+    <p>22.2 <strong>No Reliance</strong></p>
+    <p>Each of the parties to this Terms and Conditions acknowledge that, in entering into this agreement, it does not do so in reliance on any representation, warranty or other provision except as expressly provided in this Terms and Conditions. Any conditions, warranties or other terms implied by statute or common law are excluded from this agreement to the fullest extent permitted by law.</p>
+    <p>22.3 <strong>Jurisdiction</strong></p>
+    <p>These Terms and Conditions shall be governed by the laws of the Commonwealth of Australia and of the State of Queensland. In the event of dispute arising under or in relation to this Terms and Conditions the parties agree to submit to the jurisdiction of the Courts of Queensland to the exclusion of all others.</p>
+    <p>22.4 <strong>Waiver</strong></p>
+    <p>A waiver of any clause or a breach of these Terms and Conditions by us must be made in writing by our authorised agent.</p>
+    <p>22.5 <strong>Severance</strong></p>
+    <p>If any provision of this agreement is prohibited by law or judged by a court to be unlawful, void or unenforceable, the provision shall, to the extent required, be severed from this agreement and rendered ineffective as far as possible without modifying the remaining provisions of this agreement, and shall not in any way affect any other circumstances of or the validity or enforcement of this agreement.</p>
+    <p>22.6 <strong>Address for Notices</strong></p>
+    <p>Unless otherwise stated all notices to be sent to us in accordance with or in relation to this Terms and Conditions must be sent to &lsquo;info@paybae.com.au&rsquo;.</p>
+  </div>
+  <div id="privacy" class="lightbox">
+    <h3 id="h1_52eb_0">Our Privacy Policy and Credit Reporting Privacy Policy</h3>
+    <h5 id="h2_52eb_0">Background</h5>
+    <p id="p_52eb_2">At Y3L Pty Ltd ACN 625 026 244 and its related entities ('Y3L' / 'we' / 'us') it is important to us that we manage your personal information securely and consistently with relevant legislation, including the <i>Privacy Act 1988</i> (Cth) ('<b>Privacy Act</b>') as well as the Credit Reporting Privacy Code ('<b>Code</b>') where applicable.</p>
+    <p id="p_52eb_4">This Policy outlines how we collect, disclose, use, store or otherwise handle personal information. It is not limited to current customers but to all individuals and business users who deal with us.</p>
+    <h5 id="h2_52eb_1">This Policy explains:</h5>
+    <ul id="l1">
+      <li>
+        The kinds of personal information (including credit-related information) we collect, and the purposes for which we do that;
+      </li>
+      <li>
+        How we manage the personal information that we collect about you;
+      </li>
+      <li>
+        How you can seek access to and correction of that information;
+      </li>
+      <li>
+        If necessary, how you can make a complaint relating to our handling of that information.
+      </li>
+    </ul>
+    <p id="p_52eb_10"></p>
+    <ol id="l2">
+      <li>
+        APPLICATION OF THIS PRIVACY POLICY
+        <ol id="l3">
+          <li>
+            Y3L is a company based in Australia providing a proprietary tool comprised of software and source code (known as Paybae) that provides users with the means to store credit in a digital wallet and track their purchases made at designated events (event organisers who use Paybae) with the means to receive and store data and information in a database, retrieve that information and data and analyse that data and interconnect with other software streams, smartphones or similar devices.
+          </li>
+          <li>
+            In Australia, we are governed by the Australian Privacy Principles ('APPs') under the Privacy Act. In our interactions with you, we also comply with Credit Reporting Privacy Code requirements. These set out the way organisations and government agencies can collect and use, disclose and provide access to personal and sensitive information.
+            <ol id="l4">
+              <li>
+                Personal information <span class="p">is information that identifies or could identify a person, whether it is true or not. It may include, for example, your name, age, gender, profile picture, contact details, bank account details and financial information.</span>
+              </li>
+              <li>
+                Sensitive information <span class="p">as defined by the Privacy Act (as amended) is also personal information but relates to your opinions, views, racial or ethnic origin, political options or affiliations, religious beliefs, philosophical beliefs, membership of a professional or trade association, membership of a trade union, sexual preferences or practices or criminal record or health, genetic, biometric information or biometric templates.</span>
+              </li>
+              <li>
+                Credit Information <span class="p">as defined in the Privacy Act is personal information about an individual (other than sensitive information) relating primarily to your credit- related dealings which can be disclosed to Credit Reporting Bodies ('</span>CRBs<span class="p">') that report on consumer credit worthiness and includes:</span>
+                <ul id="l5">
+                  <li>
+                    identification information about the individual; or
+                  </li>
+                  <li>
+                    consumer credit liability information about the individual; or
+                  </li>
+                  <li>
+                    repayment history information about the individual; or
+                  </li>
+                  <li>
+                    a statement that an information request has been made in relation to the individual by a credit provider, mortgage insurer or trade insurer; or
+                  </li>
+                  <li>
+                    the type of consumer credit or commercial credit, and the amount of credit, sought in an application:
+                    <ul id="l6">
+                      <li>
+                        that has been made by the individual to a credit provider; and
+                      </li>
+                      <li>
+                        in connection with which the provider has made an information request in relation to the individual; or
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    default information about the individual; or
+                  </li>
+                  <li>
+                    payment information about the individual; or
+                  </li>
+                  <li>
+                    new arrangement information about the individual; or
+                  </li>
+                  <li>
+                    court proceedings information about the individual; or
+                  </li>
+                  <li>
+                    personal insolvency information about the individual; or
+                  </li>
+                  <li>
+                    publicly available information about the individual:
+                    <ol id="l7">
+                      <li>
+                        that relates to the individual's activities in Australia or the external Territories and the individual's credit worthiness; and
+                      </li>
+                      <li>
+                        that is not court proceedings information about the individual or information about the individual that is entered or recorded on the National Personal Insolvency Index; or
+                      </li>
+                    </ol>
+                  </li>
+                  <li>
+                    the opinion of a credit provider that the individual has committed, in circumstances specified by the provider, a serious credit infringement in relation to consumer credit provided by the provider to the individual.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Credit Eligibility Information <span class="p">provided to us by CRBs, so it may also include information about your credit related dealings with other credit providers. CEI also includes any credit worthiness information that we derive from the data from a credit reporting body, for example credit ratings, scores and evaluations about you and your credit worthiness.</span>
+              </li>
+            </ol>
+          </li>
+          <li>
+            We respect your personal information, and this Privacy Policy explains how we manage it. This Privacy Policy covers Y3L and all of its related companies.
+          </li>
+          <li>
+            Notwithstanding any references or specific examples in this Privacy Policy, those examples are not to be taken as an exhaustive list of personal information collected by us.
+          </li>
+        </ol>
+      </li>
+      <li>
+        WHAT WE DO
+        <ol id="l8">
+          <li>
+            Examples of where we might collect personal or sensitive information include:
+            <ol id="l9">
+              <li>
+                when you visit our website, create a user account, and / or use our online services;
+              </li>
+              <li>
+                when entering into an agreement with us for the supply of services;
+              </li>
+              <li>
+                when you correspond or communicate with Y3L or our agents over the telephone or in any other manner, including by letter, facsimile or email;
+              </li>
+              <li>
+                providing your credit card information to facilitate payment;
+              </li>
+              <li>
+                using your internet service provider or mobile network to connect to our services;
+              </li>
+              <li>
+                when we assess your eligibility for our services;
+              </li>
+              <li>
+                if you connect with us via a social network;
+              </li>
+              <li>
+                when you complete a customer survey or send us feedback;
+              </li>
+              <li>
+                in administering your account, including requests and the provision of our services.
+              </li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+      <li>
+        WHY WE COLLECT AND USE PERSONAL INFORMATION
+        <ol id="l10">
+          <li>
+            At Y3L we take your personal privacy seriously. We may collect personal information about you for various reasons, for example:
+            <ol id="l11">
+              <li>
+                because you have provided it directly to us, for instance contact details, date of birth, and credit card numbers or bank account details;
+              </li>
+              <li>
+                to process your application to Y3L and/or request for services;
+              </li>
+              <li>
+                to provide you with the most appropriate services for your needs;
+              </li>
+              <li>
+                to improve our services, for instance, through the collection and analysis of statistical and research data and use of cookies;
+              </li>
+              <li>
+                because you work for us;
+              </li>
+              <li>
+                for purposes directly related to any of the above and any of our services;
+              </li>
+              <li>
+                to provide follow-up on information regarding Y3L, including responding to comments or questions or providing our services to you;
+              </li>
+              <li>
+                to meet any requirements of government funding for programs including receiving, collecting and collating de-identified statistical information;
+              </li>
+              <li>
+                to monitor and evaluate existing services and plan for future services; and
+              </li>
+              <li>
+                if we are required to share your information with government or regulatory bodies, as required or authorised by law.
+              </li>
+            </ol>
+          </li>
+          <li>
+            We only use your personal and sensitive information for purposes which are directly related to the reason you provided us with your information in the first place and where you would reasonably expect us to use your information. This may include sharing your personal or sensitive information with service providers.
+          </li>
+          <li>
+            We may share your information with government or regulatory bodies as required or authorised by law. These agencies may also share this information with organisations or agencies in other jurisdictions.
+          </li>
+        </ol>
+      </li>
+      <li>
+        HOW WE COLLECT INFORMATION
+        <ol id="l12">
+          <li>
+            Whenever possible, we will collect personal information directly from you unless unreasonable or impractical for us to do so. Y3L may also collect personal information in a variety of ways, including but not limited to when you:
+            <ol id="l13">
+              <li>
+                use our website;
+              </li>
+              <li>
+                connect with us via social network;
+              </li>
+              <li>
+                phone us;
+              </li>
+              <li>
+                write to us;
+              </li>
+              <li>
+                email us;
+              </li>
+              <li>
+                visit us in person;
+              </li>
+              <li>
+                through the use of our services; and
+              </li>
+              <li>
+                provide feedback to us.
+              </li>
+            </ol>
+          </li>
+          <li>
+            There are certain instances in which we will collect information about you from third parties where it is unreasonable or impracticable to collect it directly from you. For example, we may collect information about you from a business which provides information about commercial credit worthiness for us to assess your application.
+          </li>
+        </ol>
+      </li>
+      <li>
+        DISCLOSURE OF PERSONAL INFORMATION
+        <ol id="l14">
+          <li>
+            Disclosure of personal information to third parties
+            <p id="p_52eb_126">We will not disclose your personal information to another person unless you have given consent or if one of the exceptions under the Privacy Act applies. Where possible, the information that could reasonably identify you as an individual is first removed.</p>
+          </li>
+          <li>
+            Exceptions
+            <p id="p_52eb_129">Except as set out above, Y3L will not disclose your information to a third party unless one or more of the following applies:</p>
+            <ol id="l15">
+              <li>
+                you have given your consent for us to do so;
+              </li>
+              <li>
+                you would reasonably expect us to use or give that information for another purpose related to the purpose for which it was collected (or in the case of sensitive information - directly related to the purpose for which it was collected);
+              </li>
+              <li>
+                it is otherwise required or authorised by law;
+              </li>
+              <li>
+                it will prevent or lessen a serious threat to somebody's life, health or safety or to public health or safety;
+              </li>
+              <li>
+                it is reasonably necessary for us to take appropriate action in relation to suspected unlawful activity, or misconduct of a serious nature that relates to our functions or activities;
+              </li>
+              <li>
+                it is reasonably necessary for the enforcement of a law conducted by an enforcement body.
+              </li>
+            </ol>
+          </li>
+          <li>
+            Examples of disclosure
+            <ol id="l16">
+              <li>
+                Customer Records
+                <p id="p_52eb_145">Y3L maintains records of all customers including financial information which may need to be shared with financial institutions, government or regulatory bodies from time to time.</p>
+              </li>
+              <li>
+                Credit Reporting
+                <p id="p_52eb_148">We may disclose personal information about you to a CRB in relation to any credit-related dealings with us. That information may be included in reports by the CRB to other credit providers or to another CRB to help them assess applications by you for credit.</p>
+              </li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+      <li>
+        DISCLOSURE OF INFORMATION TO THIRD PARTIES OVERSEAS
+        <ol id="l17">
+          <li>
+            We may disclose personal information to overseas based organisations or agencies in the provision and/or administration of your account. We undertake to protect your personal information by ensuring the country of the overseas based organisation or agency has similar protections in relation to privacy, or that we enter into contractual arrangements with the organisation or agency to ensure the protection of your privacy.
+          </li>
+        </ol>
+      </li>
+      <li>
+        CAN I REMAIN ANONYMOUS?
+        <ol id="l18">
+          <li>
+            It is your choice to provide information to us. Wherever it is lawful and practicable, you have the option not to identify yourself or to use a fictional name when interacting with us. You can remain anonymous when using some parts of our website, or sites administered by us.
+          </li>
+          <li>
+            It may be necessary for us to collect your personal or sensitive information if you would like certain services. If you choose to withhold the information we require, we may not be able to provide you the services you have requested.
+          </li>
+        </ol>
+      </li>
+      <li>
+        SECURITY AND STORAGE OF YOUR INFORMATION
+        <ol id="l19">
+          <li>
+            We store your information in a number of ways including physically (such as in paper form) or electronically with third party data storage providers. Your privacy and the security of your information is very important to us so where we store your information with third party providers, we will enter into contractual arrangements with those providers to ensure they take appropriate measures to protect your information.
+          </li>
+          <li>
+            We take appropriate steps to protect your personal and sensitive information held by us from misuse, interference, unauthorised access, modification, loss or disclosure. This includes during storage, collection, processing and transfer and destruction of the information. These steps include but are not limited to:
+            <ol id="l20">
+              <li>
+                ensuring our computer systems and websites have security systems in place such as up to date firewall and data encryption;
+              </li>
+              <li>
+                maintaining security systems and monitoring of our premises;
+              </li>
+              <li>
+                implementing confidentiality agreements with our employees and contractors, sub-contractors, service providers and their agents;
+              </li>
+              <li>
+                requiring all employees and contractors who handle, deal or work with personal or sensitive information in the course of their duties with us to undergo training on our Privacy Policy and procedures and information and data storage management, before undertaking those duties
+              </li>
+              <li>
+                maintaining document storage security policies and procedures; and
+              </li>
+              <li>
+                implementing verification procedures for all inquiries/transactions to ensure only authorised people can access personal information.
+              </li>
+            </ol>
+          </li>
+          <li>
+            Our website may contain links to external websites. We recommend that you review the privacy policies of those external websites as we are not responsible for their privacy practices.
+          </li>
+        </ol>
+      </li>
+      <li>
+        HOW TO ACCESS AND CORRECT YOUR INFORMATION
+        <ol id="l21">
+          <li>
+            We will take reasonable steps to ensure that all personal information we collect, use or disclose is accurate, up-to-date, complete, relevant, and not misleading.
+          </li>
+          <li>
+            We will correct any personal information that we believe to be incorrect, out-of-date, incomplete, irrelevant or misleading. This may include taking reasonable steps to notify any organisation or government agency to which information was disclosed about the correction. You may request to access or correct your personal information at any time by contacting the Privacy Officer using the contact details below. We will give you access to your information unless one of the exceptions under the Privacy Act applies. For example, if providing access would be unlawful or denying access is authorised by law.
+          </li>
+          <li>
+            If you request to access or correct your information, we will respond within a reasonable time (usually within 30 days). If your request is refused, we will give you a written notice that sets out the reasons for refusal and how to complain about the decision.
+          </li>
+        </ol>
+      </li>
+      <li>
+        DIRECT COMMUNICATIONS AND PROMOTIONAL MATERIALS
+        <ol id="l22">
+          <li>
+            From time to time, we may send out promotional materials and information from government departments or other third parties. If you do not wish to receive these communications, please contact us to unsubscribe from that mailing list.
+          </li>
+          <li>
+            Your information may also be used by us to provide you with details of other organisation's services where permitted by the Privacy Act or where you have consented to the use or disclosure of your personal information for direct communications and promotional materials.
+          </li>
+          <li>
+            It is our policy that any direct communications or promotional material will include a statement advising that you can request to not receive further material from us by contacting us using the details provided. Please note that if you choose this option this will also prevent you receiving offers of discounts as well as all promotional and informational materials.
+          </li>
+        </ol>
+      </li>
+      <li>
+        COOKIES
+        <ol id="l23">
+          <li>
+            The Y3L website and other websites administered by us use small files known as 'cookies' to record your visit to the website and collect some statistical information. We use this information to help administer and improve our websites and services. We do not use this information to personally identify you. Information we may collect includes:
+            <ol id="l24">
+              <li>
+                your computer's IP address;
+              </li>
+              <li>
+                your domain name;
+              </li>
+              <li>
+                the date and time or access to the website;
+              </li>
+              <li>
+                pages accessed and documents downloaded;
+              </li>
+              <li>
+                the previous site visited;
+              </li>
+              <li>
+                if you have visited the website before;
+              </li>
+              <li>
+                the type of browser software in use;
+              </li>
+              <li>
+                your mobile carrier; and
+              </li>
+              <li>
+                device information including device and application ID.
+              </li>
+            </ol>
+          </li>
+          <li>
+            You may set your browser to disable cookies when visiting our websites. However, some website functions may be unavailable if you choose to do so.
+          </li>
+        </ol>
+      </li>
+      <li>
+        UPDATES TO OUR PRIVACY POLICY
+        <p id="p_52eb_214">We will update our Privacy Policy from time to time. Our website will have the most current Privacy Policy.</p>
+      </li>
+      <li>
+        COMPLAINTS AND ENQUIRIES
+        <ol id="l25">
+          <li>
+            We are committed to the protection of your privacy. If you have any questions about how we handle personal information, would like to complain about how we have handled your information, or would like further information about our Privacy Policy, please submit a written query or complaint to '<a class="a" href="mailto:info@paybae.com.au" target="_blank">info@paybae.com.au</a>'. Our Privacy Officer will assess any complaints and liaise with you to resolve any issues within a reasonable time.
+          </li>
+          <li>
+            If you consider your privacy concerns have not been resolved satisfactorily by us, or you wish to obtain more information on privacy requirements, you can contact The Office of the Australian Information Commissioner on 1300 363 992 or visit their website at <a href="http://www.oaic.gov.au/" target="_blank">www.oaic.gov.au.</a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        CONTACTING US
+        <ol id="l26">
+          <li>
+            Online <a href="http://www.paybae.com.au/" id="a_52eb_0" target="_blank"></a><a class="s3" href="http://www.paybae.com.au/" target="_blank">www.paybae.com.au</a>
+          </li>
+          <li>
+            By Post
+            <br/>Attn: Privacy Officer
+            <br/>Y3L Pty Ltd<br/>Suite 8, 8 Clunies Ross Court Eight Mile Plains QLD 4113
+          </li>
+        </ol>
+      </li>
+    </ol>
+  </div>
+</body>
+</html>
